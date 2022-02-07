@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="main">
+            <form action="">
+                <label for="proID"> Product ID &emsp;
+                    <input type="text" id="proID" name="proID" required>
+                </label>
+                <label for="proName"> Product Name
+                    <input type="text" id="proName" name="proName" required>
+                </label>
+                <label for="proPrice"> Product Price &nbsp;
+                    <input type="text" id="proPrice" name="proPrice" required>
+                </label>
+                <label for="submit">
+                    <input type="button" id="submit" name="Submit" onclick="productList()" value="Add to Product">
+                </label>
+               <div class="list">
+                   
+               </div>
+            </form>
+            
+            </div>
+            <table id="tableData">
+                <tr>
+                    <th>Product ID</th>
+                    <th>Product Name</th>
+                    <th>Product Price</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

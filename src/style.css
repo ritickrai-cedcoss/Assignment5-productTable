@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+    padding: 10% 20%;
+}
+.main{
+    width: 80%;
+}
+.main label{
+    display: block;
+    margin-bottom: 5%;
+    font-size: 1.2rem;
+}
+
+.main label input{
+    margin-left: 15%;
+    padding: 2% 3%;
+}
+
+#submit{
+    margin-left: 0;
+    font-size: 1rem;
+    padding: 1% 2%;
+    margin-top: 5%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+tr, th {
+    padding: 2% 4%;
+}
