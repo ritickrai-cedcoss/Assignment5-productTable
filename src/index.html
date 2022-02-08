@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="wrapper">
         <div class="main">
@@ -21,31 +23,29 @@
                     <input type="text" id="proPrice" name="proPrice" required>
                 </label>
                 <label for="submit">
-                    <input type="button" id="submit" name="Submit" onclick="productList()" value="Add to Product">
+                    <input type="button" id="submit" name="Submit" onclick="addProduct()" value="Add to Product">
                 </label>
-               <div class="list">
-                   
-               </div>
             </form>
-            
-            </div>
-            <table id="tableData">
-                <tr>
-                    <th>Product ID</th>
-                    <th>Product Name</th>
-                    <th>Product Price</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
+
         </div>
+        <table id="tableData">
+            <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
     </div>
 
     <script src="script.js">
 
     </script>
 </body>
+
 </html>
